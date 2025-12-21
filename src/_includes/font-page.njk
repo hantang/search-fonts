@@ -1,0 +1,128 @@
+---
+layout: base
+---
+
+{%- for theme in samples.themes -%}
+  <input type="radio"
+  hidden
+  name="theme"
+  value="{{theme}}"
+  id="control-theme-{{theme}}"
+  {{ 'checked' if loop.index === 1 }}
+  oninput="setUrlParam(this.name, this.value)"
+  >
+{%- endfor -%}
+{%- for language in samples.languages -%}
+  <input type="radio"
+  hidden
+  name="language"
+  value="{{language.value}}"
+  id="control-language-{{language.value}}"
+  {{ 'checked' if loop.index === 1 }}
+  oninput="setUrlParam(this.name, this.value)"
+  >
+{%- endfor -%}
+<section class="screenshot-stage">
+  <script>
+    // set screenshot state just before loading images
+    var params = new URLSearchParams(location.search),
+      theme = params.get('theme'),
+      language = params.get('language');
+
+    if (theme)
+      document
+        .getElementById('control-theme-' + theme)
+        .checked = true;
+
+    if (language)
+      document
+        .getElementById('control-language-' + language)
+        .checked = true;
+  </script>
+  <header class="screenshot-controls" id="screenshot-controls">
+    <div class="controls language-controls">
+      {%- for language in samples.languages -%}
+        <label for="control-language-{{language.value}}" data-language="{{language.value}}">{{language.label}}</label>
+      {%- endfor -%}
+    </div>
+    <div class="controls theme-controls">
+      {%- for theme in samples.themes -%}
+        <label for="control-theme-{{theme}}" data-theme="{{theme}}" aria-label="{{theme}}"></label>
+      {%- endfor -%}
+    </div>
+  </header>
+  <div class="screenshot-wrapper">
+    {%- for theme in samples.themes -%}
+      {%- for language in samples.languages -%}
+        <div class="screenshot" data-theme="{{theme}}" data-language="{{language.value}}">
+
+          <!-- 
+            Sizes attribute for the for the two in the middle:
+            100vw - padding - left sidebar [- right sidebar]
+          -->
+
+          <img
+            alt="{{language.value}} example of {{title}} in {{theme}} mode"
+            onerror="this.style.display='none'"
+            srcset="
+              {{images.urlPrefixLarge}}{{images.imageLocation}}/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.png 1600w,
+              {{images.urlPrefixMedium}}{{images.imageLocation}}/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.png 1200w,
+              {{images.urlPrefixSmall}}{{images.imageLocation}}/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.png 600w"
+            sizes="
+              (min-width: 1629px) 903px,
+              (min-width: 1366px) calc(100vw - 166px - 246px - 314px),
+              (min-width: 900px) calc(100vw - 58px - 246px),
+              96vw
+            "
+          >
+        </div>
+      {%- endfor -%}
+    {%- endfor -%}
+  </div>
+</section>
+
+{%- set i = 1 -%}
+<section class="details">
+  <h2>{{ title }}</h2>
+  {%- if designers and designers.length and designers[0].name -%}
+    <p class="designers enter" style="--i: {{ i }}">
+      {%- set i = i + 1 -%}
+      <span>Designed by </span>
+      {%- for designer in designers -%}
+        <i class="comma-list-item">{{ designer.name }}</i>
+      {%- endfor -%}
+    </p>
+  {%- endif -%}
+  {%- if home_url -%}
+    <a href="{{ home_url }}" class="enter" style="--i: {{ i }}">{{ home_url }}</a>
+    {%- set i = i + 1 -%}
+  {%- endif -%}
+  {%- if content -%}
+    <div class="description enter" style="--i: {{ i }}">
+      {%- set i = i + 1 -%}
+      {{ content | safe }}
+    </div>
+  {%- endif -%}
+  <ul class="features">
+    <li class="enter" style="--i: {{ i }}">
+      {%- set i = i + 1 -%}
+      <h3>Cost</h3>
+      <span>{{ cost or 'free' }}</span>
+    </li>
+    <li class="enter" style="--i: {{ i }}">
+      {%- set i = i + 1 -%}
+      <h3>Ligatures</h3>
+      <span class="icon {{ 'v' if ligatures else 'x' }}" area-label="{{ 'yes' if ligatures else 'no' }}"></span>
+    </li>
+    <li class="enter" style="--i: {{ i }}">
+      {%- set i = i + 1 -%}
+      <h3>Italics</h3>
+      <span class="icon {{ 'v' if italics else 'x' }}" area-label="{{ 'yes' if italics else 'no' }}"></span>
+    </li>
+    <li class="enter" style="--i: {{ i }}">
+      {%- set i = i + 1 -%}
+      <h3>Variable</h3>
+      <span class="icon {{ 'v' if variable else 'x' }}" area-label="{{ 'yes' if variable else 'no' }}"></span>
+    </li>
+  </ul>
+</section>

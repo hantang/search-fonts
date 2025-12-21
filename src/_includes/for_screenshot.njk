@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width,initial-scale=1" name="viewport"/>
+    <title>{{ title }}</title>
+
+    <link href="../../assets/styles/sample-style.css" rel="stylesheet"/>
+    <link href="../../assets/styles/prism.css" rel="stylesheet"/>
+  </head>
+  <body>
+    {{ content | safe }}
+
+    <script src="../../assets/scripts/prism.js"></script>
+    <script>
+      window.allFonts = [
+        {%- for font in collections.fonts -%}
+          {
+            title: '{{ font.data.title }}',
+            slug: '{{ font.data.title | slug }}',
+            stylesheet_url: '{{ font.data.stylesheet_url }}',
+            stylesheet_absolute: {{ font.data.stylesheet_absolute | d(false) }},
+            ligatures: '{{ font.data.ligatures }}'
+          },
+        {%- endfor -%}
+      ];
+    </script>
+    <script src="../../assets/scripts/font-sample-loader.js"></script>
+  </body>
+</html>

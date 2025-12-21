@@ -1,0 +1,33 @@
+{
+  "name": "search-fonts",
+  "version": "1.0.0",
+  "description": "A visual look at (coding) fonts!",
+  "main": "main.js",
+  "scripts": {
+    "build": "ELEVENTY_ENV=production eleventy",
+    "dev": "ELEVENTY_ENV=development eleventy --serve",
+    "sass:watch": "sass --watch src/assets/styles/sass/style.scss:src/assets/styles/style.css"
+  },
+  "keywords": [],
+  "author": "hantang",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hantang/search-fonts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hantang/search-fonts/issues"
+  },
+  "homepage": "https://github.com/hantang/search-fonts#readme",
+  "packageManager": "pnpm@10.18.1",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "sass": "^1.97.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.3.3",
+    "html-minifier": "^4.0.0",
+    "puppeteer": "^24.34.0",
+    "yargs": "^18.0.0"
+  }
+}
