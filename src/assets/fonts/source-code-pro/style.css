@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("SourceCodePro-Regular.ttf.woff2") format("woff2"), 
+        url("SourceCodePro-Regular.ttf.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("SourceCodePro-It.ttf.woff2") format("woff2"), 
+        url("SourceCodePro-It.ttf.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}

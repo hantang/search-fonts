@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Meslo LG';
+  src: local('Meslo LG Regular'), url('MesloLGL-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Meslo LG';
+  src: local('Meslo LG Italic'), url('MesloLGL-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Meslo LG';
+  src: local('Meslo LG Bold'), url('MesloLGL-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Meslo LG';
+  src: local('Meslo LG Bold Italic'),
+    url('MesloLGL-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

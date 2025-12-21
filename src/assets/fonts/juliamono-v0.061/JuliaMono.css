@@ -1,0 +1,17 @@
+@font-face {
+  src: url('JuliaMono-Regular.woff2') format('woff2');
+  font-family: 'JuliaMono';
+  font-style: normal;
+}
+
+@font-face {
+  src: url('JuliaMono-RegularItalic.woff2') format('woff2');
+  font-family: 'JuliaMono';
+  font-style: italic;
+}
+
+pre,
+code {
+  font-feature-settings: 'zero', 'ss01';
+  font-variant-ligatures: contextual;
+}

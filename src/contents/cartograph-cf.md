@@ -10,6 +10,7 @@ cost: $40
 ligatures: true
 italics: true
 variable: false
+stylesheet_url: cartograph-cf/style.css
 ---
 
 Cartograph is a handsome monospaced font family featuring lush italics, code-friendly ligatures, and a proportional set accessible via OpenType. With warmth and character to spare, Cartograph excels in both code and prose.

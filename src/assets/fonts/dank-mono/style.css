@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Dank Mono';
+  src: url('DankMono-Regular.woff2') format('woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dank Mono';
+  src: url('DankMono-Italic.woff2') format('woff2');
+  font-style: italic;
+}

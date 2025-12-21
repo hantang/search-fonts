@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Monoid';
+  src: url('woff2/Monoid-Regular.woff2') format('woff2'),
+    url('woff/Monoid-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Monoid';
+  src: url('woff2/Monoid-Italic.woff2') format('woff2'),
+    url('woff/Monoid-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}

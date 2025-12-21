@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'recursive';
+  src: url('recursive.woff2') format('woff2-variations');
+  font-weight: 300 1000;
+  font-style: normal;
+}
+
+body {
+  --mono: 'MONO' 1;
+
+  /* Monospace: Sans (natural-width) or Mono (fixed-width) */
+  --casl: 'CASL' 0;
+
+  /* Casual: Linear to Casual */
+  --wght: 'wght' 400;
+
+  /* Weight: Light to ExtraBlack; usually set with `font-weight` */
+  --slnt: 'slnt' 0;
+
+  /* Slant: 0 to -15 degrees, auto cursive at -14 */
+  --CRSV: 'CRSV' 0;
+  /* Cursive: always roman, auto substitution, or always cursive */
+}
+
+pre,
+code {
+  font-variation-settings: var(--mono), var(--casl), var(--wght), var(--slnt),
+    var(--CRSV);
+  font-feature-settings: 'dlig';
+}
+
+.token.comment {
+  font-variation-settings: 'MONO' 1, 'slnt' -10, 'wght' 400, 'CRSV' 0;
+}

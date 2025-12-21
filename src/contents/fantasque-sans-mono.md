@@ -11,7 +11,7 @@ cost: free
 ligatures: true
 italics: true
 variable: false
-stylesheet_url: fantasque-sans-mono/fantasque-sans-mono.css
+stylesheet_url: fantasque-sans-mono/index.css
 ---
 
 A programming font, designed with functionality in mind, and with some wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
