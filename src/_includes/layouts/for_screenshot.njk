@@ -14,7 +14,7 @@
     <script src="/assets/scripts/prism.js"></script>
     <script>
       window.allFonts = [
-        {%- for font in collections.fonts -%}
+        {%- for font in collections.contents -%}
           {
             title: '{{ font.data.title }}',
             slug: '{{ font.data.title | slug }}',

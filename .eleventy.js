@@ -9,9 +9,9 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/screenshots');
   // eleventyConfig.addPassthroughCopy('src/fonts-for-ui');
 
-  eleventyConfig.addCollection('fonts', function (collection) {
+  eleventyConfig.addCollection('contents', function (collection) {
     let fonts = collection
-      .getFilteredByGlob('src/fonts/*.md')
+      .getFilteredByGlob('src/contents/*.md')
       .sort((a, b) => (b.data.title < a.data.title ? 1 : -1));
     return fonts;
   });

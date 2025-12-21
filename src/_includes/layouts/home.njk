@@ -2,16 +2,16 @@
 layout: layouts/base.njk
 ---
 
-{% if collections.fonts.length > 0 %}
-  {% set firstFontUrl = collections.fonts[0].url | url %}  
+{% if collections.contents.length > 0 %}
+  {% set firstFontUrl = collections.contents[0].url | url %}  
   <meta http-equiv="refresh" content="0; url={{ firstFontUrl }}">
   <div style="padding: 20px; font-family: sans-serif;">
-    <p>Redirecting to <a href="{{ firstFontUrl }}">{{ collections.fonts[0].data.title }}</a>...</p>
+    <p>Redirecting to <a href="{{ firstFontUrl }}">{{ collections.contents[0].data.title }}</a>...</p>
   </div>
 {% endif %}
 
 <script>
   window.addEventListener('load', function () {
-    window.location.href = "{{ collections.fonts[0].url | url }}";
+    window.location.href = "{{ collections.contents[0].url | url }}";
   })
 </script>
