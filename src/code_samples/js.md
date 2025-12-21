@@ -1,5 +1,4 @@
 ---
-layout: for_screenshot
 title: JavaScript Sample
 ---
 

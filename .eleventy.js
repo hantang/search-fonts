@@ -1,6 +1,9 @@
 const htmlmin = require('html-minifier');
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
+	const { HtmlBasePlugin } = await import("@11ty/eleventy");
+	eleventyConfig.addPlugin(HtmlBasePlugin);
+
   eleventyConfig.addPassthroughCopy('src/assets');
   eleventyConfig.addPassthroughCopy('src/favicon.ico');
   eleventyConfig.addPassthroughCopy('src/screenshots');
@@ -43,6 +46,7 @@ module.exports = function (eleventyConfig) {
     passthroughFileCopy: true,
     templateFormats: ['njk', 'md'],
     htmlTemplateEngine: 'njk',
-    markdownTemplateEngine: 'njk'
+    markdownTemplateEngine: 'njk',
+    pathPrefix: "/search-fonts/",
   };
 };

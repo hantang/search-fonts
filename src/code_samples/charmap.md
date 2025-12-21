@@ -1,5 +1,4 @@
 ---
-layout: for_screenshot
 title: Character Map Sample
 ---
 

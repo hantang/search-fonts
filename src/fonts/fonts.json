@@ -1,4 +1,0 @@
-{
-  "layout": "font-page",
-  "permalink": "/fonts/{{ title | slug }}/"
-}

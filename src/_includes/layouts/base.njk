@@ -4,9 +4,9 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="/assets/styles/style.css"/>
-    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico'/>
-    <title>Coding Fonts{{' — ' + title if title}} on CSS-Tricks</title>
-    <meta name="description" content="Information about {{ "coding fonts" if not title}}{{"the coding font " + title if title}}: designers, character charts, features, and more.">
+    <link rel='shortcut icon' type='image/x-icon' href='/assets/favicon.ico'/>
+    <title>Search Fonts{{' — ' + title if title}} on CSS-Tricks</title>
+    <meta name="description" content="Information about {{ "search fonts" if not title}}{{"the coding font " + title if title}}: designers, character charts, features, and more.">
     {% if title %}
       <meta name="twitter:card" content="summary_large_image"/>
       <meta name="twitter:site" content="@css"/>
@@ -14,7 +14,7 @@
       <meta property="og:url" content="{{images.imageLocation}}/fonts/{{title | slug}}/"/>
       <meta property="og:title" content="{{title}}"/>
       <meta property="og:description" content="font designed for writing code"/>
-      <meta property="og:image" content="{{images.imageLocation}}/screenshots/{{title | slug}}/js-dark.png"/>
+      <meta property="og:image" content="{{images.imageLocation}}/screenshots/{{title | slug}}/charmap-dark.png"/>
     {% endif %}
   </head>
 
@@ -48,10 +48,10 @@
             <path d="M60.5779 29.5125C60.2672 29.5477 59.9549 29.4622 59.7054 29.2736C59.4559 29.0851 59.2884 28.8079 59.2375 28.4993C59.1867 28.1908 59.2563 27.8745 59.432 27.6158C59.6077 27.3572 59.8761 27.1759 60.1817 27.1095C60.4913 27.0771 60.8017 27.1642 61.0492 27.3533C61.2966 27.5423 61.4623 27.8189 61.5124 28.1262C61.5624 28.4335 61.4929 28.7484 61.3183 29.0061C61.1435 29.2639 60.8768 29.4451 60.5728 29.5125H60.5779Z" fill="white"/>
             <path d="M29.813 37.1581L22.0049 43.178C21.0651 43.8333 20.3386 44.2702 19.4039 44.2702C17.5294 44.2702 15.9596 42.5278 15.9596 40.5567C15.9596 38.9108 17.2092 37.7118 18.3574 37.1683L27.5015 33.0127L18.3523 28.7302C17.6652 28.4616 17.0719 27.9975 16.6458 27.3953C16.2196 26.7931 15.9793 26.0791 15.9545 25.3419C15.9648 24.3976 16.3413 23.4943 17.0047 22.8224C17.6682 22.1505 18.5666 21.7624 19.5106 21.7401C20.4504 21.7401 21.0752 22.0652 22.015 22.8323L29.813 28.8522L28.7969 19.1086C28.487 16.8175 29.945 14.9582 32.0228 14.9582C34.1006 14.9582 35.5789 16.7057 35.2537 19.0222L34.2377 28.8674L41.995 22.8323C42.9348 22.0702 43.6613 21.7401 44.596 21.7401C45.5276 21.7719 46.4094 22.1682 47.0517 22.8437C47.694 23.5193 48.0453 24.42 48.0301 25.352C48.0202 26.0931 47.7857 26.8137 47.3576 27.4187C46.9295 28.0236 46.3279 28.4845 45.6323 28.7404L36.4882 33.0026L45.6628 37.1581C46.3637 37.4392 46.9655 37.9218 47.3923 38.5447C47.819 39.1677 48.0517 39.9032 48.0606 40.6583C48.0517 41.6038 47.6759 42.509 47.0125 43.1829C46.3491 43.8567 45.4499 44.2465 44.5046 44.2702C43.6714 44.2702 42.9399 43.8333 42.0001 43.178L34.1869 37.1581L35.2029 46.8915C35.5128 49.1826 34.0599 51.042 31.972 51.042C29.8841 51.042 28.416 49.2945 28.7462 46.9779L29.813 37.1581Z" fill="#F79A44"/>
           </svg>
-          <h1>Coding Fonts</h1>
+          <h1>Search Fonts</h1>
         </header>
         {% block nav %}
-          {% include "./components/fonts-nav.njk" %}
+          {% include "components/fonts-nav.njk" %}
         {% endblock nav %}
       </aside>
       <main data-site-main>
