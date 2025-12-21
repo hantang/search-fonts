@@ -47,6 +47,7 @@ pre[class*="language-"] ::selection {
 	color: #263238;
 }
 
+/*
 :not(pre) > code[class*="language-"] {
 	white-space: normal;
 	border-radius: 0.2em;
@@ -59,6 +60,7 @@ pre[class*="language-"] {
 	margin: 0.5em 0;
 	padding: 1.25em 1em;
 }
+*/
 
 .language-css > code,
 .language-sass > code,

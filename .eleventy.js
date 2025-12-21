@@ -5,8 +5,8 @@ module.exports = async function (eleventyConfig) {
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 
   eleventyConfig.addPassthroughCopy('src/assets');
-  eleventyConfig.addPassthroughCopy('src/favicon.ico');
   eleventyConfig.addPassthroughCopy('src/screenshots');
+  // eleventyConfig.addPassthroughCopy('src/favicon.ico');
   // eleventyConfig.addPassthroughCopy('src/fonts-for-ui');
 
   eleventyConfig.addCollection('contents', function (collection) {

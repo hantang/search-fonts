@@ -55,18 +55,16 @@ layout: layouts/base.njk
     {%- for theme in samples.themes -%}
       {%- for language in samples.languages -%}
         <div class="screenshot" data-theme="{{theme}}" data-language="{{language.value}}">
-          <img
-            alt="{{language.value}} example of {{title}} in {{theme}} mode"
-            onerror="this.style.display='none'"
-            srcset="
-              {{images.urlPrefixLarge}}{{images.imageLocation}}/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.png 1600w,
-              {{images.urlPrefixMedium}}{{images.imageLocation}}/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.png 1200w,
-              {{images.urlPrefixSmall}}{{images.imageLocation}}/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.png 600w"
-            sizes="
-              (min-width: 1629px) 903px,
-              (min-width: 1366px) calc(100vw - 166px - 246px - 314px),
-              (min-width: 900px) calc(100vw - 58px - 246px),
-              96vw" />
+          <picture>
+            <source 
+              srcset="/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.webp" 
+              type="image/webp">
+            <img
+              src="/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.png"
+              alt="{{language.value}} example of {{title}} in {{theme}} mode"
+              onerror="this.style.display='none'"
+              style="max-width: 100%; height: auto;" />
+          </picture>
         </div>
       {%- endfor -%}
     {%- endfor -%}

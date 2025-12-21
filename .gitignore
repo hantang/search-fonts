@@ -120,3 +120,13 @@ dist
 temp/
 trash/
 _site/
+backup/
+*.yaml
+*.html
+*.txt
+*.py
+*.otf
+*.ttf
+*.svg
+src/assets/fonts/**/*.md
+# screenshots/
