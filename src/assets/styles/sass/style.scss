@@ -388,7 +388,8 @@ main {
 }
 
 $themes: light, dark;
-$languages: html, css, js, charmap;
+// $languages: html, css, js, charmap;
+$languages: charmap, c, go, java, javascript, python, rust, sql;
 
 .screenshot-controls {
   display: flex;

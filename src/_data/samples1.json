@@ -1,0 +1,24 @@
+{
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "languages": [
+    {
+      "value": "html",
+      "label": "HTML"
+    },
+    {
+      "value": "css",
+      "label": "CSS"
+    },
+    {
+      "value": "js",
+      "label": "JavaScript"
+    },
+    {
+      "value": "charmap",
+      "label": "Characters"
+    }
+  ]
+}

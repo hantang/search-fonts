@@ -2,7 +2,8 @@
 title: JavaScript Sample
 ---
 
-<pre class="lang-js"><code>(function() {
+```javascript
+(function() {
   // Init
   const toggleButton = document.querySelector('#module > button');
   const currentTheme = localStorage.getItem('theme');
@@ -24,4 +25,6 @@ title: JavaScript Sample
 
   toggleButton.addEventListener('click', switchTheme, false);
   
-})();</code></pre>
+})();
+```
+

@@ -1,21 +1,40 @@
 {
-  "themes": ["dark", "light"],
+  "themes": [
+    "dark",
+    "light"
+  ],
   "languages": [
-    {
-      "value": "html",
-      "label": "HTML"
-    },
-    {
-      "value": "css",
-      "label": "CSS"
-    },
-    {
-      "value": "js",
-      "label": "JavaScript"
-    },
     {
       "value": "charmap",
       "label": "Characters"
+    },
+    {
+      "value": "c",
+      "label": "C"
+    },
+    {
+      "value": "go",
+      "label": "Go"
+    },
+    {
+      "value": "java",
+      "label": "Java"
+    },
+    {
+      "value": "javascript",
+      "label": "JavaScript"
+    },
+    {
+      "value": "python",
+      "label": "Python"
+    },
+    {
+      "value": "rust",
+      "label": "Rust"
+    },
+    {
+      "value": "sql",
+      "label": "SQL"
     }
   ]
 }

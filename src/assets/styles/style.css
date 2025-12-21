@@ -419,6 +419,35 @@ a.fonts-nav-link.active:after {
   left: var(--left-charmap);
   width: var(--width-charmap);
 }
+[value=c]:checked ~ .screenshot-stage .screenshot-controls .controls.with-widths:after {
+  left: var(--left-c);
+  width: var(--width-c);
+}
+[value=go]:checked ~ .screenshot-stage .screenshot-controls .controls.with-widths:after {
+  left: var(--left-go);
+  width: var(--width-go);
+}
+[value=java]:checked ~ .screenshot-stage .screenshot-controls .controls.with-widths:after {
+  left: var(--left-java);
+  width: var(--width-java);
+}
+[value=javascript]:checked ~ .screenshot-stage .screenshot-controls .controls.with-widths:after {
+  left: var(--left-javascript);
+  width: var(--width-javascript);
+}
+[value=python]:checked ~ .screenshot-stage .screenshot-controls .controls.with-widths:after {
+  left: var(--left-python);
+  width: var(--width-python);
+}
+[value=rust]:checked ~ .screenshot-stage .screenshot-controls .controls.with-widths:after {
+  left: var(--left-rust);
+  width: var(--width-rust);
+}
+[value=sql]:checked ~ .screenshot-stage .screenshot-controls .controls.with-widths:after {
+  left: var(--left-sql);
+  width: var(--width-sql);
+}
+
 .screenshot-controls .controls.with-widths label {
   --active: transparent;
 }
@@ -506,6 +535,62 @@ a.fonts-nav-link.active:after {
   color: var(--inactive-text, white);
 }
 [value=charmap]:not(:checked) ~ .screenshot-stage .screenshot-wrapper [data-language=charmap] {
+  opacity: 0;
+  pointer-events: none;
+}
+[value=c]:not(:checked) ~ .screenshot-stage .screenshot-controls [data-language=c] {
+  background-color: transparent;
+  color: var(--inactive-text, white);
+}
+[value=c]:not(:checked) ~ .screenshot-stage .screenshot-wrapper [data-language=c] {
+  opacity: 0;
+  pointer-events: none;
+}
+[value=go]:not(:checked) ~ .screenshot-stage .screenshot-controls [data-language=go] {
+  background-color: transparent;
+  color: var(--inactive-text, white);
+}
+[value=go]:not(:checked) ~ .screenshot-stage .screenshot-wrapper [data-language=go] {
+  opacity: 0;
+  pointer-events: none;
+}
+[value=java]:not(:checked) ~ .screenshot-stage .screenshot-controls [data-language=java] {
+  background-color: transparent;
+  color: var(--inactive-text, white);
+}
+[value=java]:not(:checked) ~ .screenshot-stage .screenshot-wrapper [data-language=java] {
+  opacity: 0;
+  pointer-events: none;
+}
+[value=javascript]:not(:checked) ~ .screenshot-stage .screenshot-controls [data-language=javascript] {
+  background-color: transparent;
+  color: var(--inactive-text, white);
+}
+[value=javascript]:not(:checked) ~ .screenshot-stage .screenshot-wrapper [data-language=javascript] {
+  opacity: 0;
+  pointer-events: none;
+}
+[value=python]:not(:checked) ~ .screenshot-stage .screenshot-controls [data-language=python] {
+  background-color: transparent;
+  color: var(--inactive-text, white);
+}
+[value=python]:not(:checked) ~ .screenshot-stage .screenshot-wrapper [data-language=python] {
+  opacity: 0;
+  pointer-events: none;
+}
+[value=rust]:not(:checked) ~ .screenshot-stage .screenshot-controls [data-language=rust] {
+  background-color: transparent;
+  color: var(--inactive-text, white);
+}
+[value=rust]:not(:checked) ~ .screenshot-stage .screenshot-wrapper [data-language=rust] {
+  opacity: 0;
+  pointer-events: none;
+}
+[value=sql]:not(:checked) ~ .screenshot-stage .screenshot-controls [data-language=sql] {
+  background-color: transparent;
+  color: var(--inactive-text, white);
+}
+[value=sql]:not(:checked) ~ .screenshot-stage .screenshot-wrapper [data-language=sql] {
   opacity: 0;
   pointer-events: none;
 }

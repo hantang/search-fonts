@@ -15,9 +15,9 @@ const urlParams = new URLSearchParams(queryString);
 // Set the stylesheet
 let stylesheet;
 if (urlParams.get('theme') === 'dark') {
-  stylesheet = '../../assets/styles/prism-dark.css';
+  stylesheet = '../../assets/styles/prism-material-oceanic.css';
 } else {
-  stylesheet = '../../assets/styles/prism-light.css';
+  stylesheet = '../../assets/styles/prism-material-light.css';
 }
 injectStylesheet(stylesheet);
 
