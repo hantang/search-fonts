@@ -10,9 +10,16 @@ with custom modifications, powered by [Eleventy](https://www.11ty.dev/).
 
 Some collected awesome fonts are listed below:
 
+- [📋 monospace (github)](#github-monospace-fonts)
+- [📋 monospace (more)](#more-monospace-fonts)
+- [📋 pixel (bitmap) fonts](#pixel-bitmap-fonts)
+- [📋 cjk fonts (github)](#cjk-fonts)
+- [📋 more (sans) serif fonts](#more-sans-serif-fonts)
+- [🔚 **references list**](#references)
+
 ## Fonts
 
-### Monospace fonts (github)
+### (github) Monospace fonts
 
 <details open>
 <summary>monospace fonts (50+)</summary>
@@ -93,6 +100,8 @@ Some collected awesome fonts are listed below:
 | **Sarasa Term SC Nerd** | [laishulu/Sarasa-Term-SC-Nerd][laishulu-sarasa-term-sc-nerd] | ![][laishulu-sarasa-term-sc-nerd-stars] | ![][laishulu-sarasa-term-sc-nerd-license]  | ![][laishulu-sarasa-term-sc-nerd-release] | ![][laishulu-sarasa-term-sc-nerd-commit] |
 
 </details>
+
+[🔝 **Back to Top**](#fonts)
 
 [0xtype-0xproto]: https://github.com/0xType/0xProto
 [0xtype-0xproto-stars]: https://img.shields.io/github/stars/0xType/0xProto?style=plastic
@@ -508,6 +517,8 @@ Some collected awesome fonts are listed below:
 | **Ubuntu Mono** | [font.ubuntu.com][ubuntu-mono] |
 </details>
 
+[🔝 **Back to Top**](#fonts)
+
 [adwaita-mono]: https://gitlab.gnome.org/GNOME/adwaita-fonts
 [anonymous-pro]: https://www.marksimonson.com/fonts/view/anonymous/
 [atkinson-hyperlegible-mono]: https://www.brailleinstitute.org/freefont/
@@ -552,6 +563,8 @@ Some collected awesome fonts are listed below:
 | **Cozette** | [the-moonwitch/Cozette][the-moonwitch-cozette] | ![][the-moonwitch-cozette-stars] | ![][the-moonwitch-cozette-license]  | ![][the-moonwitch-cozette-release] | ![][the-moonwitch-cozette-commit] |
 | **cherry** | [turquoise-hexagon/cherry][turquoise-hexagon-cherry] | ![][turquoise-hexagon-cherry-stars] | ![][turquoise-hexagon-cherry-license]  | ![][turquoise-hexagon-cherry-release] | ![][turquoise-hexagon-cherry-commit] |
 </details>
+
+[🔝 **Back to Top**](#fonts)
 
 [idreesinc-monocraft]: https://github.com/IdreesInc/Monocraft
 [idreesinc-monocraft-stars]: https://img.shields.io/github/stars/IdreesInc/Monocraft?style=plastic
@@ -716,6 +729,8 @@ Some collected awesome fonts are listed below:
 | **WenJinMincho 文津宋体** | [takushun-wu/WenJinMincho][takushun-wu-wenjinmincho] | ![][takushun-wu-wenjinmincho-stars] | ![][takushun-wu-wenjinmincho-license]  | ![][takushun-wu-wenjinmincho-release] | ![][takushun-wu-wenjinmincho-commit] |
 | **Glow-sans 未来荧黑** | [welai/glow-sans][welai-glow-sans] | ![][welai-glow-sans-stars] | ![][welai-glow-sans-license]  | ![][welai-glow-sans-release] | ![][welai-glow-sans-commit] |
 </details>
+
+[🔝 **Back to Top**](#fonts)
 
 [buernia-tiejili]: https://github.com/Buernia/Tiejili
 [buernia-tiejili-stars]: https://img.shields.io/github/stars/Buernia/Tiejili?style=plastic
@@ -927,7 +942,7 @@ Some collected awesome fonts are listed below:
 [welai-glow-sans-release]: https://img.shields.io/github/v/release/welai/glow-sans?style=plastic
 [welai-glow-sans-commit]: https://img.shields.io/github/last-commit/welai/glow-sans?style=plastic
 
-### More fonts
+### More (sans) serif fonts
 
 <details>
 <summary>more fonts (~40)</summary>
@@ -975,6 +990,8 @@ Some collected awesome fonts are listed below:
 | **Public Sans** | [uswds/public-sans][uswds-public-sans] | ![][uswds-public-sans-stars] | ![][uswds-public-sans-license]  | ![][uswds-public-sans-release] | ![][uswds-public-sans-commit] |
 | **Work-Sans** | [weiweihuanghuang/Work-Sans][weiweihuanghuang-work-sans] | ![][weiweihuanghuang-work-sans-stars] | ![][weiweihuanghuang-work-sans-license]  | ![][weiweihuanghuang-work-sans-release] | ![][weiweihuanghuang-work-sans-commit] |
 </details>
+
+[🔝 **Back to Top**](#fonts)
 
 [appledesignresources-sanfranciscofont]: https://github.com/AppleDesignResources/SanFranciscoFont
 [appledesignresources-sanfranciscofont-stars]: https://img.shields.io/github/stars/AppleDesignResources/SanFranciscoFont?style=plastic
@@ -1216,7 +1233,7 @@ Some collected awesome fonts are listed below:
 [weiweihuanghuang-work-sans-release]: https://img.shields.io/github/v/release/weiweihuanghuang/Work-Sans?style=plastic
 [weiweihuanghuang-work-sans-commit]: https://img.shields.io/github/last-commit/weiweihuanghuang/Work-Sans?style=plastic
 
-## Reference
+## References
 
 - coding-fonts mirror sites:
   - [CSS-Tricks/coding-fonts][css-tricks-coding-fonts] ![][css-tricks-coding-fonts-stars] ![][css-tricks-coding-fonts-commit]
@@ -1238,6 +1255,9 @@ Some collected awesome fonts are listed below:
   - [pjobson/Microsoft-Fonts][pjobson-microsoft-fonts] ![][pjobson-microsoft-fonts-stars] ![][pjobson-microsoft-fonts-commit]
   - [pjobson/Apple-Fonts][pjobson-apple-fonts] ![][pjobson-apple-fonts-stars] ![][pjobson-apple-fonts-commit]
   - [kiwi0fruit/open-fonts][kiwi0fruit-open-fonts] ![][kiwi0fruit-open-fonts-stars] ![][kiwi0fruit-open-fonts-commit]
+  - [zispace/hanzi-fonts][zispace-hanzi-fonts] ![][zispace-hanzi-fonts-stars] ![][zispace-hanzi-fonts-commit]
+
+[🔝 **Back to Top**](#fonts)
 
 [ryanoasis-nerd-fonts]: https://github.com/ryanoasis/nerd-fonts
 [ryanoasis-nerd-fonts-stars]: https://img.shields.io/github/stars/ryanoasis/nerd-fonts?style=plastic
@@ -1302,3 +1322,7 @@ Some collected awesome fonts are listed below:
 [brabadu-awesome-fonts]: https://github.com/brabadu/awesome-fonts
 [brabadu-awesome-fonts-stars]: https://img.shields.io/github/stars/brabadu/awesome-fonts?style=plastic
 [brabadu-awesome-fonts-commit]: https://img.shields.io/github/last-commit/brabadu/awesome-fonts?style=plastic
+
+[zispace-hanzi-fonts]: https://github.com/zispace/hanzi-fonts
+[zispace-hanzi-fonts-stars]: https://img.shields.io/github/stars/zispace/hanzi-fonts?style=plastic
+[zispace-hanzi-fonts-commit]: https://img.shields.io/github/last-commit/zispace/hanzi-fonts?style=plastic
