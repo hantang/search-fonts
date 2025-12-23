@@ -11,7 +11,7 @@ module.exports = async function (eleventyConfig) {
 
   eleventyConfig.addCollection('contents', function (collection) {
     let fonts = collection
-      .getFilteredByGlob('src/contents/*.md')
+      .getFilteredByGlob('src/fonts/*.md')
       .sort((a, b) => (b.data.title < a.data.title ? 1 : -1));
     return fonts;
   });
@@ -47,6 +47,6 @@ module.exports = async function (eleventyConfig) {
     templateFormats: ['njk', 'md'],
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
-    pathPrefix: "/search-fonts/",
+    // pathPrefix: "/search-fonts/",
   };
 };

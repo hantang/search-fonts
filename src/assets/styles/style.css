@@ -26,7 +26,9 @@ html {
 body {
   --bg: var(--bg-main);
   --text: var(--body);
-  font-family: "Ringside Regular SSm A", "Ringside Regular SSm B", system-ui, sans-serif;
+  /* "Ringside Regular SSm A", "Ringside Regular SSm B",  */
+  font-family: "Inter", Roboto, Open Sans, Arial, system-ui, sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 15px;
   margin: 0;
   background-color: var(--bg);
