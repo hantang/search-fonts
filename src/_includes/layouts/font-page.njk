@@ -52,15 +52,16 @@ layout: layouts/base.njk
     </div>
   </header>
   <div class="screenshot-wrapper">
+    {% set pageSlug = alias or title %}
     {%- for theme in samples.themes -%}
       {%- for language in samples.languages -%}
         <div class="screenshot" data-theme="{{theme}}" data-language="{{language.value}}">
           <picture>
             <source 
-              srcset="/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.webp" 
+              srcset="/screenshots/{{pageSlug | slug}}/{{language.value}}-{{theme}}.webp" 
               type="image/webp">
             <img
-              src="/screenshots/{{title | slug}}/{{language.value}}-{{theme}}.png"
+              src="/screenshots/{{pageSlug | slug}}/{{language.value}}-{{theme}}.png"
               alt="{{language.value}} example of {{title}} in {{theme}} mode"
               onerror="this.style.display='none'"
               style="max-width: 100%; height: auto;" />

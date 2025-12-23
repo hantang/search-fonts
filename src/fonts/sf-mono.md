@@ -1,5 +1,6 @@
 ---
 title: San Francisco Mono
+alias: SF Mono
 designers:
   - name: Apple Design
 home_url: https://developer.apple.com/fonts/

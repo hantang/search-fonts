@@ -1,5 +1,6 @@
 ---
 title: JuliaMono
+alias: julia-mono
 designers:
   - name: cormullion
 home_url: https://github.com/cormullion/juliamono

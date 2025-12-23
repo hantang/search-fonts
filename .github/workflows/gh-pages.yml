@@ -46,7 +46,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build Site
-        run: pnpm run build
+        run: pnpm run build --pathprefix ${{ github.event.repository.name }}
 
       - name: Setup pages
         uses: actions/configure-pages@v5
