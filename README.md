@@ -1235,27 +1235,69 @@ Some collected awesome fonts are listed below:
 
 ## References
 
-- coding-fonts mirror sites:
-  - [CSS-Tricks/coding-fonts][css-tricks-coding-fonts] ![][css-tricks-coding-fonts-stars] ![][css-tricks-coding-fonts-commit]
-  - <https://coding-fonts.css-trickz.com>
-  - <https://coding-fonts.pages.dev/>
-- font collections:
-  - [ryanoasis/nerd-fonts][ryanoasis-nerd-fonts] ![][ryanoasis-nerd-fonts-stars] ![][ryanoasis-nerd-fonts-commit]
-  - [chrissimpkins/codeface][chrissimpkins-codeface] ![][chrissimpkins-codeface-stars] ![][chrissimpkins-codeface-commit]
-  - [ProgrammingFonts/ProgrammingFonts][programmingfonts-programmingfonts] ![][programmingfonts-programmingfonts-stars] ![][programmingfonts-programmingfonts-commit]
-  - [sahibjotsaggu/San-Francisco-Pro-Fonts][sahibjotsaggu-san-francisco-pro-fonts] ![][sahibjotsaggu-san-francisco-pro-fonts-stars] ![][sahibjotsaggu-san-francisco-pro-fonts-commit]
-  - [hbin/top-programming-fonts][hbin-top-programming-fonts] ![][hbin-top-programming-fonts-stars] ![][hbin-top-programming-fonts-commit]
-  - [brabadu/awesome-fonts][brabadu-awesome-fonts] ![][brabadu-awesome-fonts-stars] ![][brabadu-awesome-fonts-commit]
-  - [braver/programmingfonts][braver-programmingfonts] ![][braver-programmingfonts-stars] ![][braver-programmingfonts-commit]
-  - [xero/figlet-fonts][xero-figlet-fonts] ![][xero-figlet-fonts-stars] ![][xero-figlet-fonts-commit]
-  - [Gaafar/dev-fonts][gaafar-dev-fonts] ![][gaafar-dev-fonts-stars] ![][gaafar-dev-fonts-commit]
-  - [expo/google-fonts][expo-google-fonts] ![][expo-google-fonts-stars] ![][expo-google-fonts-commit]
-  - [fontsource/font-files][fontsource-font-files] ![][fontsource-font-files-stars] ![][fontsource-font-files-commit]
-  - [pjobson/Microsoft-365-Fonts][pjobson-microsoft-365-fonts] ![][pjobson-microsoft-365-fonts-stars] ![][pjobson-microsoft-365-fonts-commit]
-  - [pjobson/Microsoft-Fonts][pjobson-microsoft-fonts] ![][pjobson-microsoft-fonts-stars] ![][pjobson-microsoft-fonts-commit]
-  - [pjobson/Apple-Fonts][pjobson-apple-fonts] ![][pjobson-apple-fonts-stars] ![][pjobson-apple-fonts-commit]
-  - [kiwi0fruit/open-fonts][kiwi0fruit-open-fonts] ![][kiwi0fruit-open-fonts-stars] ![][kiwi0fruit-open-fonts-commit]
-  - [zispace/hanzi-fonts][zispace-hanzi-fonts] ![][zispace-hanzi-fonts-stars] ![][zispace-hanzi-fonts-commit]
+### coding-fonts mirror sites
+
+- [CSS-Tricks/coding-fonts][css-tricks-coding-fonts] ![][css-tricks-coding-fonts-stars] ![][css-tricks-coding-fonts-commit]
+- <https://coding-fonts.css-trickz.com>
+- <https://coding-fonts.pages.dev/>
+
+### font collections
+
+- [ryanoasis/nerd-fonts][ryanoasis-nerd-fonts] ![][ryanoasis-nerd-fonts-stars] ![][ryanoasis-nerd-fonts-commit]
+- [chrissimpkins/codeface][chrissimpkins-codeface] ![][chrissimpkins-codeface-stars] ![][chrissimpkins-codeface-commit]
+- [ProgrammingFonts/ProgrammingFonts][programmingfonts-programmingfonts] ![][programmingfonts-programmingfonts-stars] ![][programmingfonts-programmingfonts-commit]
+- [sahibjotsaggu/San-Francisco-Pro-Fonts][sahibjotsaggu-san-francisco-pro-fonts] ![][sahibjotsaggu-san-francisco-pro-fonts-stars] ![][sahibjotsaggu-san-francisco-pro-fonts-commit]
+- [hbin/top-programming-fonts][hbin-top-programming-fonts] ![][hbin-top-programming-fonts-stars] ![][hbin-top-programming-fonts-commit]
+- [brabadu/awesome-fonts][brabadu-awesome-fonts] ![][brabadu-awesome-fonts-stars] ![][brabadu-awesome-fonts-commit]
+- [braver/programmingfonts][braver-programmingfonts] ![][braver-programmingfonts-stars] ![][braver-programmingfonts-commit]
+- [xero/figlet-fonts][xero-figlet-fonts] ![][xero-figlet-fonts-stars] ![][xero-figlet-fonts-commit]
+- [Gaafar/dev-fonts][gaafar-dev-fonts] ![][gaafar-dev-fonts-stars] ![][gaafar-dev-fonts-commit]
+- [expo/google-fonts][expo-google-fonts] ![][expo-google-fonts-stars] ![][expo-google-fonts-commit]
+- [fontsource/font-files][fontsource-font-files] ![][fontsource-font-files-stars] ![][fontsource-font-files-commit]
+- [pjobson/Microsoft-365-Fonts][pjobson-microsoft-365-fonts] ![][pjobson-microsoft-365-fonts-stars] ![][pjobson-microsoft-365-fonts-commit]
+- [pjobson/Microsoft-Fonts][pjobson-microsoft-fonts] ![][pjobson-microsoft-fonts-stars] ![][pjobson-microsoft-fonts-commit]
+- [pjobson/Apple-Fonts][pjobson-apple-fonts] ![][pjobson-apple-fonts-stars] ![][pjobson-apple-fonts-commit]
+- [kiwi0fruit/open-fonts][kiwi0fruit-open-fonts] ![][kiwi0fruit-open-fonts-stars] ![][kiwi0fruit-open-fonts-commit]
+- [zispace/hanzi-fonts][zispace-hanzi-fonts] ![][zispace-hanzi-fonts-stars] ![][zispace-hanzi-fonts-commit]
+
+- [Chronolabs Cooperative Fonts | sourceforge.net](https://sourceforge.net/projects/chronolabs-cooperative/files/Fonts/)
+
+### font sites
+
+- [Google Fonts](https://fonts.google.com/)
+- [fontspace.com](https://www.fontspace.com/)
+- [dafont.com](https://www.dafont.com/)
+- [fontsquirrel.com](https://www.fontsquirrel.com/)
+- [fontshare.com](https://www.fontshare.com/)
+- [1001fonts.com](https://www.1001fonts.com/)
+- [fonts2u.com](https://fonts2u.com/)
+- [myfonts.com](https://www.myfonts.com/)
+- [fonts.ninja](https://fonts.ninja/)
+- [fontesk.com](https://fontesk.com/) | [Free for commercial use | fontesk.com](https://fontesk.com/license/free-for-commercial-use/)
+- [uncut.wtf](https://uncut.wtf/)
+- [freefaces.gallery](https://www.freefaces.gallery/)
+- [beautifulwebtype.com](https://beautifulwebtype.com/)
+- [open-foundry.com](https://open-foundry.com)
+- [fontstruct.com/gallery](https://fontstruct.com/gallery)
+- [fontsource.org](https://fontsource.org/)
+  [:link: fontsource/fontsource](https://github.com/fontsource/fontsource/)
+  ![](https://img.shields.io/github/last-commit/fontsource/fontsource?style=flat-square)
+- [awwwards.com](https://www.awwwards.com/awwwards/collections/free-fonts/)
+- [collletttivo.it](https://www.collletttivo.it)
+- [befonts.com](https://befonts.com/font-for-commercial-use)
+- [gumroad.com](https://limitype.gumroad.com)
+- [fontget.com](https://www.fontget.com)
+- [dsg4.com](http://www.dsg4.com/04/extra/bitmap/index.html) Only tiny bitmap fonts
+- [itch.io](https://ggbot.itch.io/) GGBot: [ggbotnet/fonts-cc0](https://github.com/ggbotnet/fonts-cc0)
+- [sil.org](https://software.sil.org/fonts/) SIL Fonts
+- [v-fonts.com](https://v-fonts.com)
+- [2ttf.com](https://2ttf.com/gallery)
+- [Adobe Typekit | typekit.com](https://typekit.com/)
+- [Font Combination Library | kkuistore.com](https://fontcomb.kkuistore.com/)
+- [Fonts In Use | fontsinuse.com](https://fontsinuse.com/)
+- [Fonts Pair | fontpair.co](http://fontpair.co/)
+- [Font Reach | fontreach.com](http://www.fontreach.com/)
+- [Typ.io](http://typ.io/)
 
 [🔝 **Back to Top**](#fonts)
 
