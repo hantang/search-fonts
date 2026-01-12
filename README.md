@@ -1298,6 +1298,7 @@ Some collected awesome fonts are listed below:
 - [Fonts Pair | fontpair.co](http://fontpair.co/)
 - [Font Reach | fontreach.com](http://www.fontreach.com/)
 - [Typ.io](http://typ.io/)
+- [bestfreefonts.com](https://bestfreefonts.com)
 
 [🔝 **Back to Top**](#fonts)
 
