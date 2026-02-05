@@ -48,6 +48,12 @@ jobs:
       - name: Build Site
         run: pnpm run build --pathprefix ${{ github.event.repository.name }}
 
+      - name: Add Extra
+        run: |
+          name="typography-manual"
+          mkdir -p _site/${name}
+          cp extra/${name}.html _site/${name}/index.html
+
       - name: Setup pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

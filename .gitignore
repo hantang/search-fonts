@@ -129,4 +129,5 @@ backup/
 *.ttf
 *.svg
 src/assets/fonts/**/*.md
+!extra/*.html
 # screenshots/
