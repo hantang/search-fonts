@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'src/**'
-      - package.json
+    # paths:
+    #   - 'src/**'
+    #   - package.json
   # pull_request:
   workflow_dispatch:
 
@@ -33,9 +33,9 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         name: Install pnpm
-        with:
-          # version: 10
-          cache: true
+        # with:
+        #   # version: 10
+        #   cache: true
 
       # - name: Cache Eleventy .cache
       #   uses: actions/cache@v5

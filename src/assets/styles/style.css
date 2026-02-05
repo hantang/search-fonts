@@ -15,7 +15,7 @@ html {
   --highlight: #ff4592;
   --bg-highlight: #db045d;
   --header-shadow: 0 2px 24px rgba(0, 0, 0, 0.225), 0 1px 2px rgba(0,0,0,.125);
-  --header-height: 108px;
+  --header-height: 138px;
 }
 
 ::selection {
@@ -26,10 +26,11 @@ html {
 body {
   --bg: var(--bg-main);
   --text: var(--body);
+  font-family: system-ui, sans-serif;
   /* "Ringside Regular SSm A", "Ringside Regular SSm B",  */
-  font-family: "Inter", Roboto, Open Sans, Arial, system-ui, sans-serif, 
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 15px;
+  /* font-family: "Inter", Roboto, Open Sans, Arial, system-ui, sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-size: 1.05rem;
   margin: 0;
   background-color: var(--bg);
   color: var(--text);
@@ -102,6 +103,9 @@ img {
 
 label {
   user-select: none;
+  font-weight: bold;
+  font-style: italic;
+  /* font-family: monospace; */
 }
 
 .comma-list-item {
@@ -158,12 +162,6 @@ label {
 }
 
 .sidebar-header {
-  display: flex;
-  align-items: center;
-  padding: 24px;
-  background-color: inherit;
-  font-size: 19px;
-  font-weight: 700;
   color: white;
   height: var(--header-height);
   position: fixed;
@@ -172,7 +170,26 @@ label {
   z-index: 9;
   box-shadow: var(--header-shadow);
   transition: box-shadow 0.3s ease-out;
+  display: block;
+  background-color: inherit;
+  font-family: serif;
 }
+
+.sider-title {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px 5px 10px;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.sider-extra li{
+  text-align: right;
+  padding: 0 10px;
+  font-style: italic;
+  /* font-size: smaller; */
+}
+
 @media screen and (min-width: 900px) {
   .sidebar-header {
     position: sticky;
@@ -181,9 +198,9 @@ label {
   .sidebar-header:not(.stuck) {
     box-shadow: none;
   }
-  .sidebar-header.stuck {
+  /* .sidebar-header.stuck {
     padding-top: 26px;
-  }
+  } */
 }
 .sidebar-header svg {
   width: 64px;
@@ -614,7 +631,7 @@ a.fonts-nav-link.active:after {
   }
 }
 .details h2 {
-  font-size: 32px;
+  font-size: 2.5rem;
   font-weight: 200;
   color: white;
 }
@@ -725,7 +742,7 @@ button:focus:not(:focus-visible) {
   list-style: none;
 }
 .modal h2 {
-  font-size: 21px;
+  font-size: 1.5rem;
   font-weight: 500;
   color: white;
 }
@@ -747,7 +764,7 @@ button:focus:not(:focus-visible) {
 .modal .shortcut {
   display: flex;
   align-items: baseline;
-  font-size: 12px;
+  font-size: 0.95rem;
 }
 .modal .keyboard-key {
   display: inline-block;
@@ -756,7 +773,7 @@ button:focus:not(:focus-visible) {
   padding: 0.15em 0.25em;
   border-radius: 3px;
   font-family: monospace;
-  font-size: 15px;
+  font-size: 1.1rem;
   font-weight: bold;
   margin: 3px 6px 3px 0;
 }
@@ -784,7 +801,7 @@ button:focus:not(:focus-visible) {
   background-color: transparent;
   color: inherit;
   border: none;
-  font-size: 18px;
+  font-size: 1.3rem;
   position: fixed;
   bottom: 0;
   left: calc(256px - 2em - 12px);
